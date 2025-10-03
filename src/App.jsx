@@ -390,7 +390,7 @@ const NihilisticPortfolio = () => {
       {...props}
     >
       {banner && (
-        <div className="absolute top-4 right-0 bg-white text-black pl-16 pr-14 py-3 transform rotate-45 font-bold text-lg tracking-wider z-10 md:translate-x-1/4">
+        <div className="absolute top-4 right-0 bg-white text-black pl-16 pr-14 py-3 transform rotate-45 font-bold text-lg tracking-wider z-10 translate-x-1/4">
           {banner}
         </div>
       )}
@@ -491,8 +491,8 @@ const NihilisticPortfolio = () => {
       className="min-h-screen bg-black flex items-center justify-center px-4 pt-20"
     >
       <div className="text-center">
-        <NihilCard className="p-12 mb-8" banner="Hi! Hello!!">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white uppercase tracking-wider mb-4 border-b-8 border-white inline-block">
+        <NihilCard className="p-16 mb-8" banner="Hi! Hello!!">
+          <h1 className="text-3xl sm:text-6xl md:text-8xl font-bold text-white uppercase tracking-wider mb-4 border-b-8 border-white inline-block text-left md:text-center">
             LAKSHYA JHA
           </h1>
           <div className="text-xl md:text-3xl text-gray-300 font-medium">
