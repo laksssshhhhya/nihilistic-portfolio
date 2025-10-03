@@ -782,11 +782,11 @@ const NihilisticPortfolio = () => {
                   </h4>
                 </div>
                 <div className="text-right">
-                  <div className="flex items-center text-gray-400 mb-1 -translate-x-20">
+                  <div className="flex items-center text-gray-400 mb-1 md:-translate-x-20">
                     <Calendar className="w-4 h-4 mr-2" />
                     {exp.period}
                   </div>
-                  <div className="flex items-center text-gray-400 -translate-x-20">
+                  <div className="flex items-center text-gray-400 md:-translate-x-20">
                     <MapPin className="w-4 h-4 mr-2" />
                     {exp.location}
                   </div>
