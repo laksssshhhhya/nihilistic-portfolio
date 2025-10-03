@@ -390,7 +390,7 @@ const NihilisticPortfolio = () => {
       {...props}
     >
       {banner && (
-        <div className="absolute top-4 right-0 bg-white text-black pl-16 pr-14 py-3 transform rotate-45 font-bold text-lg tracking-wider z-10 translate-x-1/4">
+        <div className="absolute top-4 right-0 bg-white text-black pl-16 pr-14 py-3 transform rotate-45 font-bold text-lg tracking-wider z-10 md:translate-x-1/4">
           {banner}
         </div>
       )}
