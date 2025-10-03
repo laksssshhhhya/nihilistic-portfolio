@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add all the custom styles from nihilistic-styles.css here */
+/* [Copy the entire content from the nihilistic-styles.css file provided] */
